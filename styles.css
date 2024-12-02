@@ -1,0 +1,35 @@
+.sign-up {
+    color: brown;
+    font-size: 10rem;
+    max-width: 100%;
+}
+
+#main-container {
+    display: flex;
+}
+
+.picture {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 20rem;
+    position: absolute;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.engine {
+    font-size: 3rem;
+    color: white;
+    padding-right: 1rem;
+}
+
+.image {
+    height: 100vh;
+}
