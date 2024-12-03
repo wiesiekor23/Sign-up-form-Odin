@@ -1,7 +1,9 @@
 .sign-up {
+    display: flex;
     color: brown;
     font-size: 10rem;
-    max-width: 100%;
+    width: 100%;
+    background-color: aqua;
 }
 
 #main-container {
@@ -9,15 +11,20 @@
 }
 
 .picture {
+    background-image: url("jack-white-ETlaqvFwEzw-unsplash\(1\).jpg");
     display: flex;
     position: relative;
+    background-size: cover;
+    width: 70vw;
+    min-width: 35vw;
+    height: 100vh;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     top: 20rem;
     position: absolute;
@@ -28,8 +35,4 @@
     font-size: 3rem;
     color: white;
     padding-right: 1rem;
-}
-
-.image {
-    height: 100vh;
 }
