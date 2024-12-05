@@ -1,9 +1,10 @@
 .sign-up {
     display: flex;
     color: brown;
-    font-size: 10rem;
+    font-size: 1rem;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(221, 221, 221);
+    flex-direction: column;
 }
 
 #main-container {
@@ -35,4 +36,12 @@
     font-size: 3rem;
     color: white;
     padding-right: 1rem;
+}
+
+.personal-info {
+    background-color: white;
+}
+
+.line {
+    display: flex;
 }
