@@ -38,10 +38,33 @@
     padding-right: 1rem;
 }
 
+.header  {
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
 .personal-info {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    box-shadow: 8px 8px 8px #888, 9px 9px 9px rgb(172, 22, 22);
 }
 
 .line {
     display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
