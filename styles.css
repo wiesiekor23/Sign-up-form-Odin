@@ -1,10 +1,32 @@
+@font-face {
+    font-family: Boycott;
+    src: 
+    url(Fonts/BoycottProcessed/boycott_-webfont.woff2),
+    url(Fonts/BoycottProcessed/boycott_-webfont.woff);
+}
+
+@font-face {
+    font-family: Expletus;
+    src: 
+    url(Fonts/ExpletusSansBoldProcessed/expletussans-bold-webfont.woff2),
+    url(Fonts/ExpletusSansBoldProcessed/expletussans-bold-webfont.woff);
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: 
+    url(Fonts/InconsolataProcessed/inconsolata-webfont.woff2)
+    url(Fonts/InconsolataProcessed/inconsolata-webfont.woff);
+}
+
 .sign-up {
     display: flex;
-    color: brown;
     font-size: 1rem;
     width: 100%;
     background-color: rgb(221, 221, 221);
     flex-direction: column;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 #main-container {
@@ -33,6 +55,7 @@
     padding-bottom: 1rem;
 }
 .engine {
+    font-family: "Boycott", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     color: white;
     padding-right: 1rem;
@@ -42,6 +65,7 @@
     padding-left: 5rem;
     padding-bottom: 5rem;
     padding-top: 5rem;
+    font-family: Inconsolata, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .personal-info {
@@ -61,6 +85,11 @@
 .info {
     display: flex;
     flex-direction: column;
+}
+
+.label {
+    font-family: Expletus, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.75rem;
 }
 
 .submit {
