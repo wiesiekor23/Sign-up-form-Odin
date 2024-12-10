@@ -20,7 +20,7 @@
                 <div class="personal-info">
                     <div class="line">
                         <div class="info">
-                            <label for="first-name" class="label" required>FIRST NAME</label>
+                            <label for="first-name" class="label">FIRST NAME</label>
                             <input type="text" id="first-name" name="first-name">
                         </div>
                         <div class="info">
@@ -41,11 +41,15 @@
                     <div class="line">
                         <div class="info">
                             <label for="password" class="label">PASSWORD</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" 
+                                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#_$%^&+=]).{8,}"
+                                   title="Must contain at least one number, one uppercase and lowercase letter, one special character, and at least 8 or more characters">
                         </div>
                         <div class="info">
                             <label for="confirm-password" class="label">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-password" name="confirm-password">
+                            <input type="password" id="confirm-password" name="confirm-password"
+                                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"
+                                   title="Must contain at least one number, one uppercase and lowercase letter, one special character, and at least 8 or more characters">
                         </div>
                     </div>
                 </div>
