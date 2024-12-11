@@ -123,7 +123,21 @@ input:invalid {
 }
 
 button {
-    height: 2.5rem;
-    width: 10rem;
+    height: 3.5rem;
+    width: 15rem;
     border-radius: 0.5rem;
+    background-image: linear-gradient(to right, black, red);
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(255, 0, 0, 0.9));
+    color: white;
+}
+
+button:active {
+    background-image: linear-gradient(to right, black, rgb(131, 6, 6));
+    color: white;
 }
