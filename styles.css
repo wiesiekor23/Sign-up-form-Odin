@@ -30,7 +30,8 @@ body {
     background-color: rgb(221, 221, 221);
     flex-direction: column;
     font-weight: bold;
-    font-size: 2rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(to left,rgba(255, 0, 0, 0.9) 0%,rgba(0, 0, 0, 1) 99%); 
 }
 
 #main-container {
@@ -69,6 +70,8 @@ body {
     height: 35vh;
     align-content: center;
     padding-left: 5rem;
+    font-size: 2rem;
+    color: silver;
     font-family: Inconsolata, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -141,4 +144,14 @@ button:hover {
 button:active {
     background-image: linear-gradient(to right, black, rgb(131, 6, 6));
     color: white;
+}
+
+.login-link {
+    text-decoration: none;
+    color: rgb(156, 9, 9);
+}
+
+.prompt {
+    font-size: 1rem;
+    color: silver;
 }
