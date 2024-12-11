@@ -103,6 +103,7 @@ input {
 
 input:focus {
     border-color: blue;
+    box-shadow: 1px 3px 5px rgb(201, 188, 188);
 }
 
 input:invalid {
