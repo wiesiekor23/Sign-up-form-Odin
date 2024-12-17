@@ -70,9 +70,14 @@ body {
     height: 35vh;
     align-content: center;
     padding-left: 5rem;
+    padding-right: 10rem;
     font-size: 2rem;
     color: silver;
     font-family: Inconsolata, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.first-line {
+    padding-bottom: 3rem;
 }
 
 .personal-info {
