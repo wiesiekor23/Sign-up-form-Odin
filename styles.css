@@ -15,7 +15,7 @@
 @font-face {
     font-family: Inconsolata;
     src: 
-    url(Fonts/InconsolataProcessed/inconsolata-webfont.woff2)
+    url(Fonts/InconsolataProcessed/inconsolata-webfont.woff2),
     url(Fonts/InconsolataProcessed/inconsolata-webfont.woff);
 }
 
@@ -25,10 +25,10 @@ body {
 
 .sign-up {
     display: flex;
+    flex-direction: column;
     font-size: 1rem;
     width: 100%;
     background-color: rgb(221, 221, 221);
-    flex-direction: column;
     font-weight: bold;
     background: rgb(2,0,36);
     background: linear-gradient(to left,rgb(0, 0, 0) 0%,rgb(100, 0, 0) 50%,rgb(0, 0, 0) 100%); 
@@ -39,13 +39,13 @@ body {
 }
 
 .picture {
-    background-image: url("jack-white-ETlaqvFwEzw-unsplash\(1\).jpg");
     display: flex;
     position: relative;
     background-size: cover;
     width: 70vw;
     min-width: 35vw;
     height: 100vh;
+    background-image: url("jack-white-ETlaqvFwEzw-unsplash\(1\).jpg");
 }
 
 .logo {
